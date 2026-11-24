@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 78">
+  <defs>
+    <g id="half">
+      <path d="M60 10C56 2 49 1 43 7L39 11C32 13 29 19 31 25C25 26 21 30 20 35M39 11C43 11 46 13 47 16M31 25C38 24 42 29 42 36M60 31C58 28 55 26 52 26M60 58C57 66 49 69 42 63C35 62 30 58 29 51C24 49 21 46 20 42M40 50C39 45 44 40 48 40M38 50C44 49 48 53 48 58" />
+    </g>
+    <g id="brain" fill="none" stroke="#fa7824" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round">
+      <use href="#half"/>
+      <use href="#half" transform="translate(120) scale(-1 1)"/>
+      <path d="M60 10V58" stroke-width="4"/>
+      <path d="M44 39H76" stroke-width="4.7"/>
+      <path d="M27 32V46M93 32V46" stroke-width="6"/>
+      <path d="M19 35V43M101 35V43" stroke-width="5"/>
+      <path d="M12 38V40M108 38V40" stroke-width="3.5"/>
+    </g>
+  </defs>
+  <use href="#brain" transform="translate(24 0) scale(.6 .74)"/>
+  <text x="60" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="800" letter-spacing="-.8" fill="#fff">Mntl<tspan fill="#fa7824">Gym</tspan></text>
+</svg>
