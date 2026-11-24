@@ -1,0 +1,4 @@
+DirectoryIndex index.php
+
+RewriteEngine On
+RewriteRule ^(?:\.git(?:/|$)|\.gitignore$|app\.php$|config\.(?:example|local)\.php$|schema\.sql$|README\.md$) - [F,NC,L]
